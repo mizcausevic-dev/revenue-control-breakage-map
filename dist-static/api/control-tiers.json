@@ -1,0 +1,110 @@
+[
+  {
+    "lane": "AI governance and agent commercialization",
+    "breakageTier": "PRESSURED",
+    "dimension": "ATTRIBUTION_DRIFT",
+    "riskHeadline": "Board confidence is getting ahead of booking evidence because attribution still forks too easily across the AI lane.",
+    "breakageSignal": "Executive briefings, policy packets, and operator surfaces point to traction, but pipeline evidence still lands in too many parallel systems.",
+    "blockingIssue": "One commercial outcome still has to be reconciled across CRM notes, board memos, and platform narratives.",
+    "evidenceArtifacts": [
+      "ai governance scorecard",
+      "executive board brief",
+      "board narrative memo builder"
+    ],
+    "breakageScore": 73,
+    "reconciliationLoadScore": 68,
+    "instrumentationGapScore": 61,
+    "reportingLatencyScore": 66,
+    "controlGapScore": 58
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "breakageTier": "PRESSURED",
+    "dimension": "PIPELINE_BLIND_SPOT",
+    "riskHeadline": "Deals are getting delayed by procurement pressure without one consistent way to quantify the revenue exposure.",
+    "breakageSignal": "Commercial teams can feel the drag, but the revenue system still does not tag proof-room effort, questionnaire burden, and close-delay outcomes in one place.",
+    "blockingIssue": "Trust work is helping, but not all related revenue events are coded consistently enough to make the savings and acceleration story board-ready.",
+    "evidenceArtifacts": [
+      "procurement ready os",
+      "security questionnaire answer studio",
+      "trust center evidence room"
+    ],
+    "breakageScore": 69,
+    "reconciliationLoadScore": 62,
+    "instrumentationGapScore": 74,
+    "reportingLatencyScore": 57,
+    "controlGapScore": 55
+  },
+  {
+    "lane": "Biotech and diagnostics commercialization",
+    "breakageTier": "CONSTRAINED",
+    "dimension": "REPORTING_FRAGMENTATION",
+    "riskHeadline": "Leaders can see the regulated proof, but not always the clean revenue-throughline from evidence surface to booked opportunity.",
+    "breakageSignal": "Quality, CAPA, specimen, and GxP work all look strong independently, yet still report through too many adjacent narratives.",
+    "blockingIssue": "The lane needs one tighter commercialization rollup instead of four separate proof surfaces that require manual synthesis.",
+    "evidenceArtifacts": [
+      "assay release readiness board",
+      "batch deviation capa ledger",
+      "specimen chain of custody console"
+    ],
+    "breakageScore": 75,
+    "reconciliationLoadScore": 64,
+    "instrumentationGapScore": 52,
+    "reportingLatencyScore": 71,
+    "controlGapScore": 63
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "breakageTier": "BROKEN",
+    "dimension": "PAYMENT_LEAKAGE",
+    "riskHeadline": "The lane is winning attention, but control failures are still leaking money and trust.",
+    "breakageSignal": "Merchant review, reconciliation, and treasury logic do not yet reconcile into one clean revenue protection packet.",
+    "blockingIssue": "One control failure still creates too many downstream mismatches between payout, finance, and risk reporting.",
+    "evidenceArtifacts": [
+      "payment reconciliation exception desk",
+      "treasury liquidity signal lab",
+      "merchant risk review console"
+    ],
+    "breakageScore": 82,
+    "reconciliationLoadScore": 76,
+    "instrumentationGapScore": 49,
+    "reportingLatencyScore": 68,
+    "controlGapScore": 79
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "breakageTier": "PRESSURED",
+    "dimension": "FORECAST_MISMATCH",
+    "riskHeadline": "The lane can look healthier than it is because forecast confidence is still built on fragmented signals.",
+    "breakageSignal": "Grant evidence, donor stewardship, and outcomes work all point in the same direction, but not through one standardized forecast model.",
+    "blockingIssue": "The current motion still needs one cleaner tie between operator demand, renewal probability, and realized revenue timing.",
+    "evidenceArtifacts": [
+      "grant compliance evidence desk",
+      "program outcome proof ledger",
+      "donor stewardship ops console"
+    ],
+    "breakageScore": 65,
+    "reconciliationLoadScore": 57,
+    "instrumentationGapScore": 54,
+    "reportingLatencyScore": 61,
+    "controlGapScore": 52
+  },
+  {
+    "lane": "Robotics and override operations",
+    "breakageTier": "CONSTRAINED",
+    "dimension": "CONTROL_GAP",
+    "riskHeadline": "The board can see the vision, but not yet enough control proof to trust the revenue case fully.",
+    "breakageSignal": "Override, fleet, and sensor narratives point to value, but the commercial controls behind them still need a tighter packet.",
+    "blockingIssue": "The lane still needs one stronger evidence path between technical range and board-safe revenue confidence.",
+    "evidenceArtifacts": [
+      "robot fleet exception board",
+      "sensor health drift monitor",
+      "human override readiness console"
+    ],
+    "breakageScore": 71,
+    "reconciliationLoadScore": 55,
+    "instrumentationGapScore": 63,
+    "reportingLatencyScore": 58,
+    "controlGapScore": 74
+  }
+]

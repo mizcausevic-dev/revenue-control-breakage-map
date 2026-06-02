@@ -1,0 +1,280 @@
+[
+  {
+    "id": "ai-governance-breakage",
+    "lane": "AI governance and agent commercialization",
+    "dimension": "ATTRIBUTION_DRIFT",
+    "action": "RECONCILE",
+    "operatingCluster": "AI governance",
+    "breakageTier": "PRESSURED",
+    "boardQuestion": "Where is AI demand converting into demos and policy narratives without equally strong attribution and commercial control proof?",
+    "owner": "Chief AI Officer",
+    "audience": "Board technology committee",
+    "currentPosture": "The lane is commercially promising, but revenue proof still drifts between policy wins, partner influence, and actual closed-booking evidence.",
+    "breakageNarrative": "AI demand is real, but attribution drift is still obscuring which control-led motions actually create revenue.",
+    "operatingReality": "The story is strong, though too many wins still rely on inferred influence instead of a tighter revenue evidence chain.",
+    "riskHeadline": "Board confidence is getting ahead of booking evidence because attribution still forks too easily across the AI lane.",
+    "breakageSignal": "Executive briefings, policy packets, and operator surfaces point to traction, but pipeline evidence still lands in too many parallel systems.",
+    "blockingIssue": "One commercial outcome still has to be reconciled across CRM notes, board memos, and platform narratives.",
+    "evidenceArtifacts": [
+      "ai governance scorecard",
+      "executive board brief",
+      "board narrative memo builder"
+    ],
+    "opportunityMoves": [
+      "tie board memos to CRM proof",
+      "collapse influenced-vs-sourced ambiguity",
+      "standardize booking evidence tags"
+    ],
+    "relatedSurfaces": [
+      "scorecard.kineticgain.com",
+      "memo.kineticgain.com",
+      "suite.kineticgain.com"
+    ],
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ],
+    "breakageScore": 73,
+    "reconciliationLoadScore": 68,
+    "instrumentationGapScore": 61,
+    "reportingLatencyScore": 66,
+    "controlGapScore": 58,
+    "recoverableRevenueMillions": 18,
+    "headline": "AI governance has demand, but revenue proof still drifts.",
+    "narrative": "This lane does not need more visibility; it needs tighter booking evidence tied back to the exact controls and products that moved the deal.",
+    "nextMove": "Standardize one sourced-versus-influenced evidence packet for every AI governance win above the board-review threshold."
+  },
+  {
+    "id": "procurement-breakage",
+    "lane": "Procurement and trust operations",
+    "dimension": "PIPELINE_BLIND_SPOT",
+    "action": "INSTRUMENT",
+    "operatingCluster": "Procurement / trust",
+    "breakageTier": "PRESSURED",
+    "boardQuestion": "Where are enterprise deals slowing because procurement friction is visible but its pipeline impact still is not measured tightly enough?",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "currentPosture": "The trust lane is useful, but revenue controls still understate how much procurement delays are affecting close timing.",
+    "breakageNarrative": "Procurement demand is measurable, but the pipeline blind spot is still too wide between trust effort and booked revenue.",
+    "operatingReality": "The team is shipping answer packs and evidence rooms, but conversion drag still hides inside cycle-time variance rather than one crisp loss signal.",
+    "riskHeadline": "Deals are getting delayed by procurement pressure without one consistent way to quantify the revenue exposure.",
+    "breakageSignal": "Commercial teams can feel the drag, but the revenue system still does not tag proof-room effort, questionnaire burden, and close-delay outcomes in one place.",
+    "blockingIssue": "Trust work is helping, but not all related revenue events are coded consistently enough to make the savings and acceleration story board-ready.",
+    "evidenceArtifacts": [
+      "procurement ready os",
+      "security questionnaire answer studio",
+      "trust center evidence room"
+    ],
+    "opportunityMoves": [
+      "tag procurement delay reasons",
+      "instrument answer-pack reuse",
+      "tie diligence effort to close timing"
+    ],
+    "relatedSurfaces": [
+      "procurement.kineticgain.com",
+      "questionnaire.kineticgain.com",
+      "trust.kineticgain.com"
+    ],
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ],
+    "breakageScore": 69,
+    "reconciliationLoadScore": 62,
+    "instrumentationGapScore": 74,
+    "reportingLatencyScore": 57,
+    "controlGapScore": 55,
+    "recoverableRevenueMillions": 15,
+    "headline": "Procurement is helping, but its revenue drag is still under-instrumented.",
+    "narrative": "The next gain here comes from tighter instrumentation, not more generic trust copy.",
+    "nextMove": "Add one canonical delay-and-reuse tagging model so procurement effort can be measured directly against revenue timing."
+  },
+  {
+    "id": "biotech-breakage",
+    "lane": "Biotech and diagnostics commercialization",
+    "dimension": "REPORTING_FRAGMENTATION",
+    "action": "STANDARDIZE",
+    "operatingCluster": "Biotech / diagnostics",
+    "breakageTier": "CONSTRAINED",
+    "boardQuestion": "Which regulated lane is commercially credible, but still too fragmented to report revenue readiness cleanly?",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "currentPosture": "The lane is serious and differentiated, but commercial reporting still splits between quality-proof narratives and actual opportunity progression.",
+    "breakageNarrative": "Biotech is strategically strong, though reporting fragmentation keeps weakening the commercial story.",
+    "operatingReality": "There is real value here, but the evidence lives across too many adjacent rooms for clean board-facing revenue reporting.",
+    "riskHeadline": "Leaders can see the regulated proof, but not always the clean revenue-throughline from evidence surface to booked opportunity.",
+    "breakageSignal": "Quality, CAPA, specimen, and GxP work all look strong independently, yet still report through too many adjacent narratives.",
+    "blockingIssue": "The lane needs one tighter commercialization rollup instead of four separate proof surfaces that require manual synthesis.",
+    "evidenceArtifacts": [
+      "assay release readiness board",
+      "batch deviation capa ledger",
+      "specimen chain of custody console"
+    ],
+    "opportunityMoves": [
+      "standardize lane rollups",
+      "reduce duplicate board summaries",
+      "tie proof surfaces to one commercial readiness score"
+    ],
+    "relatedSurfaces": [
+      "assay.kineticgain.com",
+      "capa.kineticgain.com",
+      "specimen.kineticgain.com",
+      "gxp.kineticgain.com"
+    ],
+    "companyTags": [
+      "Veeva",
+      "Thermo Fisher",
+      "LabVantage"
+    ],
+    "breakageScore": 75,
+    "reconciliationLoadScore": 64,
+    "instrumentationGapScore": 52,
+    "reportingLatencyScore": 71,
+    "controlGapScore": 63,
+    "recoverableRevenueMillions": 11,
+    "headline": "Biotech is valuable, but still too reporting-fragmented.",
+    "narrative": "This lane needs one standardized commercialization view that ties regulated proof to pipeline readiness without manual stitching.",
+    "nextMove": "Publish one commercialization rollup for the biotech cluster and make it the only board-facing reporting packet."
+  },
+  {
+    "id": "fintech-breakage",
+    "lane": "FinTech and treasury controls",
+    "dimension": "PAYMENT_LEAKAGE",
+    "action": "CONTAIN",
+    "operatingCluster": "FinTech",
+    "breakageTier": "BROKEN",
+    "boardQuestion": "Where are control failures, reserve logic, or reconciliation gaps still leaking value out of an otherwise strong FinTech lane?",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "currentPosture": "The category is commercially attractive, but payment and merchant-control breakage still distorts the economics.",
+    "breakageNarrative": "FinTech is strong on demand, but payment leakage is still too high for clean board confidence.",
+    "operatingReality": "Useful surfaces exist, though control breakage still shows up as reserve pressure, payout delay, and mismatched reconciliation narratives.",
+    "riskHeadline": "The lane is winning attention, but control failures are still leaking money and trust.",
+    "breakageSignal": "Merchant review, reconciliation, and treasury logic do not yet reconcile into one clean revenue protection packet.",
+    "blockingIssue": "One control failure still creates too many downstream mismatches between payout, finance, and risk reporting.",
+    "evidenceArtifacts": [
+      "payment reconciliation exception desk",
+      "treasury liquidity signal lab",
+      "merchant risk review console"
+    ],
+    "opportunityMoves": [
+      "contain blast radius",
+      "align payment exception codes",
+      "tighten merchant-review to payout mapping"
+    ],
+    "relatedSurfaces": [
+      "payments.kineticgain.com",
+      "treasury.kineticgain.com",
+      "merchant.kineticgain.com",
+      "kyc.kineticgain.com"
+    ],
+    "companyTags": [
+      "Stripe",
+      "Plaid",
+      "Power BI"
+    ],
+    "breakageScore": 82,
+    "reconciliationLoadScore": 76,
+    "instrumentationGapScore": 49,
+    "reportingLatencyScore": 68,
+    "controlGapScore": 79,
+    "recoverableRevenueMillions": 17,
+    "headline": "FinTech has pull, but control failure is still leaking money.",
+    "narrative": "This lane needs tighter containment and revenue-protection reporting before the board should underwrite heavier expansion.",
+    "nextMove": "Create one canonical exception taxonomy that connects merchant risk, payment reconciliation, and treasury outcomes."
+  },
+  {
+    "id": "nonprofit-breakage",
+    "lane": "Nonprofit and foundation ops",
+    "dimension": "FORECAST_MISMATCH",
+    "action": "STANDARDIZE",
+    "operatingCluster": "Nonprofit / foundation ops",
+    "breakageTier": "PRESSURED",
+    "boardQuestion": "Which reusable lane still has demand, but forecasts too optimistically because stewardship and reporting do not reconcile tightly enough?",
+    "owner": "Principal operator",
+    "audience": "Board strategy committee",
+    "currentPosture": "The lane has clear operator value, but commercial forecasting is still looser than the board story implies.",
+    "breakageNarrative": "Nonprofit work is reusable, though forecast mismatch still blurs the revenue and renewal story.",
+    "operatingReality": "The surfaces help, but reporting, stewardship, and outcome proof still do not collapse into one clean commercial narrative.",
+    "riskHeadline": "The lane can look healthier than it is because forecast confidence is still built on fragmented signals.",
+    "breakageSignal": "Grant evidence, donor stewardship, and outcomes work all point in the same direction, but not through one standardized forecast model.",
+    "blockingIssue": "The current motion still needs one cleaner tie between operator demand, renewal probability, and realized revenue timing.",
+    "evidenceArtifacts": [
+      "grant compliance evidence desk",
+      "program outcome proof ledger",
+      "donor stewardship ops console"
+    ],
+    "opportunityMoves": [
+      "standardize renewal confidence tags",
+      "align stewardship signals with revenue timing",
+      "reduce manual forecast overrides"
+    ],
+    "relatedSurfaces": [
+      "grants.kineticgain.com",
+      "outcomes.kineticgain.com",
+      "stewardship.kineticgain.com"
+    ],
+    "companyTags": [
+      "Salesforce",
+      "Blackbaud",
+      "Google"
+    ],
+    "breakageScore": 65,
+    "reconciliationLoadScore": 57,
+    "instrumentationGapScore": 54,
+    "reportingLatencyScore": 61,
+    "controlGapScore": 52,
+    "recoverableRevenueMillions": 7,
+    "headline": "Nonprofit is useful, but forecast confidence is still too soft.",
+    "narrative": "The lane should stay active, but it needs a tighter forecast model tied to the real stewardship and evidence cycle.",
+    "nextMove": "Use one renewal-confidence rollup across grants, stewardship, and outcomes instead of separate forecast assumptions."
+  },
+  {
+    "id": "robotics-breakage",
+    "lane": "Robotics and override operations",
+    "dimension": "CONTROL_GAP",
+    "action": "ESCALATE",
+    "operatingCluster": "Robotics",
+    "breakageTier": "CONSTRAINED",
+    "boardQuestion": "Which strategically interesting lane is still too thin on control proof to support bigger revenue assumptions?",
+    "owner": "Principal operator",
+    "audience": "Board innovation committee",
+    "currentPosture": "The robotics lane broadens the suite, but commercial control proof still trails the product narrative.",
+    "breakageNarrative": "Robotics can widen the story, though control gaps still make its revenue assumptions fragile.",
+    "operatingReality": "The surfaces are strong enough to show the lane exists, but not yet strong enough to support aggressive commercial weighting.",
+    "riskHeadline": "The board can see the vision, but not yet enough control proof to trust the revenue case fully.",
+    "breakageSignal": "Override, fleet, and sensor narratives point to value, but the commercial controls behind them still need a tighter packet.",
+    "blockingIssue": "The lane still needs one stronger evidence path between technical range and board-safe revenue confidence.",
+    "evidenceArtifacts": [
+      "robot fleet exception board",
+      "sensor health drift monitor",
+      "human override readiness console"
+    ],
+    "opportunityMoves": [
+      "escalate control proof gaps",
+      "narrow revenue claims",
+      "bundle override evidence into one commercial packet"
+    ],
+    "relatedSurfaces": [
+      "robots.kineticgain.com",
+      "sensor.kineticgain.com",
+      "override.kineticgain.com"
+    ],
+    "companyTags": [
+      "NVIDIA",
+      "Boston Dynamics",
+      "AWS"
+    ],
+    "breakageScore": 71,
+    "reconciliationLoadScore": 55,
+    "instrumentationGapScore": 63,
+    "reportingLatencyScore": 58,
+    "controlGapScore": 74,
+    "recoverableRevenueMillions": 6,
+    "headline": "Robotics expands the story, but still needs stronger control proof.",
+    "narrative": "This lane is strategically useful, but it should stay commercial-light until the control packet gets stronger and easier to trust.",
+    "nextMove": "Build one board-safe control packet that ties override readiness, sensor health, and fleet exception evidence to a narrower revenue claim."
+  }
+]

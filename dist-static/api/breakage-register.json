@@ -1,0 +1,68 @@
+[
+  {
+    "lane": "AI governance and agent commercialization",
+    "operatingCluster": "AI governance",
+    "breakageTier": "PRESSURED",
+    "action": "RECONCILE",
+    "owner": "Chief AI Officer",
+    "audience": "Board technology committee",
+    "breakageNarrative": "AI demand is real, but attribution drift is still obscuring which control-led motions actually create revenue.",
+    "breakageScore": 73,
+    "nextMove": "Standardize one sourced-versus-influenced evidence packet for every AI governance win above the board-review threshold."
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "operatingCluster": "Procurement / trust",
+    "breakageTier": "PRESSURED",
+    "action": "INSTRUMENT",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "breakageNarrative": "Procurement demand is measurable, but the pipeline blind spot is still too wide between trust effort and booked revenue.",
+    "breakageScore": 69,
+    "nextMove": "Add one canonical delay-and-reuse tagging model so procurement effort can be measured directly against revenue timing."
+  },
+  {
+    "lane": "Biotech and diagnostics commercialization",
+    "operatingCluster": "Biotech / diagnostics",
+    "breakageTier": "CONSTRAINED",
+    "action": "STANDARDIZE",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "breakageNarrative": "Biotech is strategically strong, though reporting fragmentation keeps weakening the commercial story.",
+    "breakageScore": 75,
+    "nextMove": "Publish one commercialization rollup for the biotech cluster and make it the only board-facing reporting packet."
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "operatingCluster": "FinTech",
+    "breakageTier": "BROKEN",
+    "action": "CONTAIN",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "breakageNarrative": "FinTech is strong on demand, but payment leakage is still too high for clean board confidence.",
+    "breakageScore": 82,
+    "nextMove": "Create one canonical exception taxonomy that connects merchant risk, payment reconciliation, and treasury outcomes."
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "operatingCluster": "Nonprofit / foundation ops",
+    "breakageTier": "PRESSURED",
+    "action": "STANDARDIZE",
+    "owner": "Principal operator",
+    "audience": "Board strategy committee",
+    "breakageNarrative": "Nonprofit work is reusable, though forecast mismatch still blurs the revenue and renewal story.",
+    "breakageScore": 65,
+    "nextMove": "Use one renewal-confidence rollup across grants, stewardship, and outcomes instead of separate forecast assumptions."
+  },
+  {
+    "lane": "Robotics and override operations",
+    "operatingCluster": "Robotics",
+    "breakageTier": "CONSTRAINED",
+    "action": "ESCALATE",
+    "owner": "Principal operator",
+    "audience": "Board innovation committee",
+    "breakageNarrative": "Robotics can widen the story, though control gaps still make its revenue assumptions fragile.",
+    "breakageScore": 71,
+    "nextMove": "Build one board-safe control packet that ties override readiness, sensor health, and fleet exception evidence to a narrower revenue claim."
+  }
+]

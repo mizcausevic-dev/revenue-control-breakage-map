@@ -1,0 +1,50 @@
+[
+  {
+    "lane": "AI governance and agent commercialization",
+    "action": "RECONCILE",
+    "compositeRecoveryScore": 65.2,
+    "owner": "Chief AI Officer",
+    "recoverableRevenueMillions": 18,
+    "nextMove": "Standardize one sourced-versus-influenced evidence packet for every AI governance win above the board-review threshold."
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "action": "INSTRUMENT",
+    "compositeRecoveryScore": 63.4,
+    "owner": "Chief Commercial Officer",
+    "recoverableRevenueMillions": 15,
+    "nextMove": "Add one canonical delay-and-reuse tagging model so procurement effort can be measured directly against revenue timing."
+  },
+  {
+    "lane": "Biotech and diagnostics commercialization",
+    "action": "STANDARDIZE",
+    "compositeRecoveryScore": 65,
+    "owner": "Quality systems lead",
+    "recoverableRevenueMillions": 11,
+    "nextMove": "Publish one commercialization rollup for the biotech cluster and make it the only board-facing reporting packet."
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "action": "CONTAIN",
+    "compositeRecoveryScore": 70.8,
+    "owner": "Chief Revenue Officer",
+    "recoverableRevenueMillions": 17,
+    "nextMove": "Create one canonical exception taxonomy that connects merchant risk, payment reconciliation, and treasury outcomes."
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "action": "STANDARDIZE",
+    "compositeRecoveryScore": 57.8,
+    "owner": "Principal operator",
+    "recoverableRevenueMillions": 7,
+    "nextMove": "Use one renewal-confidence rollup across grants, stewardship, and outcomes instead of separate forecast assumptions."
+  },
+  {
+    "lane": "Robotics and override operations",
+    "action": "ESCALATE",
+    "compositeRecoveryScore": 64.2,
+    "owner": "Principal operator",
+    "recoverableRevenueMillions": 6,
+    "nextMove": "Build one board-safe control packet that ties override readiness, sensor health, and fleet exception evidence to a narrower revenue claim."
+  }
+]

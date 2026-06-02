@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control tiers · Kinetic Gain</title>
+    <meta name="description" content="Control-tier view showing which revenue-control failure is strongest in each lane." />
+    <style>
+      :root { color-scheme: dark; --bg:#07111d; --panel:#0d1a2b; --border:rgba(103,224,190,.22); --text:#edf2ff; --muted:#9fb0cf; --accent:#67e0be; --accent-2:#7dc4ff; }
+      * { box-sizing:border-box; }
+      body { margin:0; font-family:"Segoe UI",system-ui,sans-serif; background:radial-gradient(circle at top left, rgba(125,196,255,.12), transparent 30%), linear-gradient(180deg,#050c16 0%,var(--bg) 100%); color:var(--text); }
+      a { color:var(--accent-2); text-decoration:none; }
+      .wrap { max-width:1180px; margin:0 auto; padding:32px 24px 64px; }
+      .hero,.section { background:linear-gradient(180deg, rgba(14,28,45,.95), rgba(10,19,33,.98)); border:1px solid var(--border); border-radius:28px; padding:28px; box-shadow:0 18px 60px rgba(2,7,16,.35); }
+      .hero { margin-bottom:24px; }
+      .eyebrow { display:inline-block; padding:10px 16px; border-radius:999px; border:1px solid var(--border); background:rgba(103,224,190,.08); color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.28em; }
+      h1,h2 { margin:18px 0 12px; font-family:Georgia,serif; line-height:.95; }
+      h1 { font-size:clamp(56px,8vw,92px); max-width:980px; }
+      h2 { font-size:clamp(36px,4vw,54px); }
+      .lede { color:var(--muted); font-size:20px; line-height:1.6; max-width:920px; }
+      .nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+      .nav a { padding:10px 14px; border:1px solid rgba(125,196,255,.18); border-radius:999px; color:var(--muted); }
+      .nav a.active { color:var(--text); border-color:var(--accent); background:rgba(103,224,190,.08); }
+      .metrics,.grid { display:grid; gap:18px; }
+      .metrics { grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); margin-top:26px; }
+      .metric,.card,.table-wrap { background:rgba(16,32,50,.76); border:1px solid rgba(125,196,255,.12); border-radius:22px; padding:18px; }
+      .metric-label,.chip { color:var(--accent); text-transform:uppercase; letter-spacing:.18em; font-size:12px; }
+      .metric-value { display:block; font-size:40px; font-weight:700; margin-top:10px; }
+      .metric-copy { margin-top:10px; color:var(--muted); line-height:1.5; }
+      .section { margin-top:24px; }
+      .grid { grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); }
+      .card h3 { margin:12px 0 10px; font-size:30px; line-height:1.05; }
+      .card p,li { color:var(--muted); line-height:1.6; }
+      .table-wrap { overflow-x:auto; }
+      table { width:100%; border-collapse:collapse; }
+      th,td { text-align:left; padding:12px; border-bottom:1px solid rgba(125,196,255,.12); vertical-align:top; }
+      th { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.18em; }
+      ul { padding-left:20px; }
+      pre { white-space:pre-wrap; overflow-wrap:anywhere; color:var(--muted); background:rgba(7,17,29,.75); border:1px solid rgba(125,196,255,.12); border-radius:18px; padding:18px; }
+      .footer { margin-top:24px; color:var(--muted); font-size:14px; display:flex; gap:18px; flex-wrap:wrap; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero"><span class="eyebrow">Control tiers</span><h1>The real breakage stays visible: is it attribution drift, reporting fragmentation, leakage, or raw control failure?</h1><p class="lede">This view keeps each lane tied to the dominant revenue-control weakness so leadership can tighten the right thing first.</p><div class="nav"><a href="/">Overview</a><a href="/breakage-register">Breakage register</a><a class="active" href="/control-tiers">Control tiers</a><a href="/remediation-posture">Remediation posture</a><a href="/verification">Verification</a><a href="/docs">Docs</a></div></section><section class="section table-wrap"><table><thead><tr><th>Lane</th><th>Tier</th><th>Dimension</th><th>Risk headline</th><th>Breakage signal</th><th>Blocking issue</th><th>Breakage</th><th>Reconciliation</th><th>Instrumentation</th><th>Latency</th><th>Control gap</th></tr></thead><tbody><tr><td>AI governance and agent commercialization</td><td>PRESSURED</td><td>ATTRIBUTION_DRIFT</td><td>Board confidence is getting ahead of booking evidence because attribution still forks too easily across the AI lane.</td><td>Executive briefings, policy packets, and operator surfaces point to traction, but pipeline evidence still lands in too many parallel systems.</td><td>One commercial outcome still has to be reconciled across CRM notes, board memos, and platform narratives.</td><td>73</td><td>68</td><td>61</td><td>66</td><td>58</td></tr><tr><td>Procurement and trust operations</td><td>PRESSURED</td><td>PIPELINE_BLIND_SPOT</td><td>Deals are getting delayed by procurement pressure without one consistent way to quantify the revenue exposure.</td><td>Commercial teams can feel the drag, but the revenue system still does not tag proof-room effort, questionnaire burden, and close-delay outcomes in one place.</td><td>Trust work is helping, but not all related revenue events are coded consistently enough to make the savings and acceleration story board-ready.</td><td>69</td><td>62</td><td>74</td><td>57</td><td>55</td></tr><tr><td>Biotech and diagnostics commercialization</td><td>CONSTRAINED</td><td>REPORTING_FRAGMENTATION</td><td>Leaders can see the regulated proof, but not always the clean revenue-throughline from evidence surface to booked opportunity.</td><td>Quality, CAPA, specimen, and GxP work all look strong independently, yet still report through too many adjacent narratives.</td><td>The lane needs one tighter commercialization rollup instead of four separate proof surfaces that require manual synthesis.</td><td>75</td><td>64</td><td>52</td><td>71</td><td>63</td></tr><tr><td>FinTech and treasury controls</td><td>BROKEN</td><td>PAYMENT_LEAKAGE</td><td>The lane is winning attention, but control failures are still leaking money and trust.</td><td>Merchant review, reconciliation, and treasury logic do not yet reconcile into one clean revenue protection packet.</td><td>One control failure still creates too many downstream mismatches between payout, finance, and risk reporting.</td><td>82</td><td>76</td><td>49</td><td>68</td><td>79</td></tr><tr><td>Nonprofit and foundation ops</td><td>PRESSURED</td><td>FORECAST_MISMATCH</td><td>The lane can look healthier than it is because forecast confidence is still built on fragmented signals.</td><td>Grant evidence, donor stewardship, and outcomes work all point in the same direction, but not through one standardized forecast model.</td><td>The current motion still needs one cleaner tie between operator demand, renewal probability, and realized revenue timing.</td><td>65</td><td>57</td><td>54</td><td>61</td><td>52</td></tr><tr><td>Robotics and override operations</td><td>CONSTRAINED</td><td>CONTROL_GAP</td><td>The board can see the vision, but not yet enough control proof to trust the revenue case fully.</td><td>Override, fleet, and sensor narratives point to value, but the commercial controls behind them still need a tighter packet.</td><td>The lane still needs one stronger evidence path between technical range and board-safe revenue confidence.</td><td>71</td><td>55</td><td>63</td><td>58</td><td>74</td></tr></tbody></table></section>
+      <div class="footer">
+        <span>Revenue Control Breakage Map</span>
+        <a href="https://breakage.kineticgain.com">breakage.kineticgain.com</a>
+        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
+        <a href="https://kineticgain.com/">Kinetic Gain</a>
+      </div>
+    </div>
+  </body>
+</html>

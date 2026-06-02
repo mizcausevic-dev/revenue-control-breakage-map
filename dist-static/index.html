@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revenue Control Breakage Map · Kinetic Gain</title>
+    <meta name="description" content="Board-ready surface for exposing revenue-control failures, reporting latency, attribution drift, and recoverable revenue." />
+    <style>
+      :root { color-scheme: dark; --bg:#07111d; --panel:#0d1a2b; --border:rgba(103,224,190,.22); --text:#edf2ff; --muted:#9fb0cf; --accent:#67e0be; --accent-2:#7dc4ff; }
+      * { box-sizing:border-box; }
+      body { margin:0; font-family:"Segoe UI",system-ui,sans-serif; background:radial-gradient(circle at top left, rgba(125,196,255,.12), transparent 30%), linear-gradient(180deg,#050c16 0%,var(--bg) 100%); color:var(--text); }
+      a { color:var(--accent-2); text-decoration:none; }
+      .wrap { max-width:1180px; margin:0 auto; padding:32px 24px 64px; }
+      .hero,.section { background:linear-gradient(180deg, rgba(14,28,45,.95), rgba(10,19,33,.98)); border:1px solid var(--border); border-radius:28px; padding:28px; box-shadow:0 18px 60px rgba(2,7,16,.35); }
+      .hero { margin-bottom:24px; }
+      .eyebrow { display:inline-block; padding:10px 16px; border-radius:999px; border:1px solid var(--border); background:rgba(103,224,190,.08); color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.28em; }
+      h1,h2 { margin:18px 0 12px; font-family:Georgia,serif; line-height:.95; }
+      h1 { font-size:clamp(56px,8vw,92px); max-width:980px; }
+      h2 { font-size:clamp(36px,4vw,54px); }
+      .lede { color:var(--muted); font-size:20px; line-height:1.6; max-width:920px; }
+      .nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+      .nav a { padding:10px 14px; border:1px solid rgba(125,196,255,.18); border-radius:999px; color:var(--muted); }
+      .nav a.active { color:var(--text); border-color:var(--accent); background:rgba(103,224,190,.08); }
+      .metrics,.grid { display:grid; gap:18px; }
+      .metrics { grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); margin-top:26px; }
+      .metric,.card,.table-wrap { background:rgba(16,32,50,.76); border:1px solid rgba(125,196,255,.12); border-radius:22px; padding:18px; }
+      .metric-label,.chip { color:var(--accent); text-transform:uppercase; letter-spacing:.18em; font-size:12px; }
+      .metric-value { display:block; font-size:40px; font-weight:700; margin-top:10px; }
+      .metric-copy { margin-top:10px; color:var(--muted); line-height:1.5; }
+      .section { margin-top:24px; }
+      .grid { grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); }
+      .card h3 { margin:12px 0 10px; font-size:30px; line-height:1.05; }
+      .card p,li { color:var(--muted); line-height:1.6; }
+      .table-wrap { overflow-x:auto; }
+      table { width:100%; border-collapse:collapse; }
+      th,td { text-align:left; padding:12px; border-bottom:1px solid rgba(125,196,255,.12); vertical-align:top; }
+      th { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.18em; }
+      ul { padding-left:20px; }
+      pre { white-space:pre-wrap; overflow-wrap:anywhere; color:var(--muted); background:rgba(7,17,29,.75); border:1px solid rgba(125,196,255,.12); border-radius:18px; padding:18px; }
+      .footer { margin-top:24px; color:var(--muted); font-size:14px; display:flex; gap:18px; flex-wrap:wrap; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+      <span class="eyebrow">Revenue controls</span>
+      <h1>Where are reporting failures, attribution drift, and control gaps quietly distorting the suite’s revenue story?</h1>
+      <p class="lede">Revenue Control Breakage Map turns reconciliation load, instrumentation gaps, reporting latency, and control weakness into one reusable board-facing revenue surface.</p>
+      <div class="nav"><a class="active" href="/">Overview</a><a href="/breakage-register">Breakage register</a><a href="/control-tiers">Control tiers</a><a href="/remediation-posture">Remediation posture</a><a href="/verification">Verification</a><a href="/docs">Docs</a></div>
+      <div class="metrics">
+        <div class="metric"><span class="metric-label">Systems tracked</span><span class="metric-value">6</span><div class="metric-copy">Modeled revenue-control lanes in the current portfolio view.</div></div>
+        <div class="metric"><span class="metric-label">High-breakage lanes</span><span class="metric-value">6</span><div class="metric-copy">Lanes where reporting or control failures are already commercially visible.</div></div>
+        <div class="metric"><span class="metric-label">Reset-required lanes</span><span class="metric-value">3</span><div class="metric-copy">Lanes where control coverage or instrumentation should be reset before the next board cycle.</div></div>
+        <div class="metric"><span class="metric-label">Recoverable revenue</span><span class="metric-value">$74M</span><div class="metric-copy">Modeled revenue recoverable by tightening controls and reporting.</div></div>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Breakage register</h2>
+      <p class="lede">Reconcile AI attribution, instrument procurement drag, standardize biotech reporting, contain FinTech payment leakage, tighten nonprofit renewal forecasting, and narrow robotics revenue claims until the control packet is stronger.</p>
+      <div class="grid"><article class="card">
+        <div class="chip">RECONCILE</div>
+        <h3>AI governance</h3>
+        <p><strong>Tier:</strong> PRESSURED</p>
+        <p><strong>Owner:</strong> Chief AI Officer</p>
+        <p><strong>Audience:</strong> Board technology committee</p>
+        <p><strong>Narrative:</strong> AI demand is real, but attribution drift is still obscuring which control-led motions actually create revenue.</p>
+        <p><strong>Breakage score:</strong> 73</p>
+        <p>Standardize one sourced-versus-influenced evidence packet for every AI governance win above the board-review threshold.</p>
+      </article><article class="card">
+        <div class="chip">INSTRUMENT</div>
+        <h3>Procurement / trust</h3>
+        <p><strong>Tier:</strong> PRESSURED</p>
+        <p><strong>Owner:</strong> Chief Commercial Officer</p>
+        <p><strong>Audience:</strong> Board growth committee</p>
+        <p><strong>Narrative:</strong> Procurement demand is measurable, but the pipeline blind spot is still too wide between trust effort and booked revenue.</p>
+        <p><strong>Breakage score:</strong> 69</p>
+        <p>Add one canonical delay-and-reuse tagging model so procurement effort can be measured directly against revenue timing.</p>
+      </article><article class="card">
+        <div class="chip">STANDARDIZE</div>
+        <h3>Biotech / diagnostics</h3>
+        <p><strong>Tier:</strong> CONSTRAINED</p>
+        <p><strong>Owner:</strong> Quality systems lead</p>
+        <p><strong>Audience:</strong> Board compliance committee</p>
+        <p><strong>Narrative:</strong> Biotech is strategically strong, though reporting fragmentation keeps weakening the commercial story.</p>
+        <p><strong>Breakage score:</strong> 75</p>
+        <p>Publish one commercialization rollup for the biotech cluster and make it the only board-facing reporting packet.</p>
+      </article><article class="card">
+        <div class="chip">CONTAIN</div>
+        <h3>FinTech</h3>
+        <p><strong>Tier:</strong> BROKEN</p>
+        <p><strong>Owner:</strong> Chief Revenue Officer</p>
+        <p><strong>Audience:</strong> Board finance committee</p>
+        <p><strong>Narrative:</strong> FinTech is strong on demand, but payment leakage is still too high for clean board confidence.</p>
+        <p><strong>Breakage score:</strong> 82</p>
+        <p>Create one canonical exception taxonomy that connects merchant risk, payment reconciliation, and treasury outcomes.</p>
+      </article></div>
+    </section>
+    <section class="section">
+      <h2>Board-visible leakage pressure</h2>
+      <ul><li><strong>AI governance and agent commercialization</strong> · recovery 65.2 · breakage 73 · $18M recoverable</li><li><strong>Procurement and trust operations</strong> · recovery 63.4 · breakage 69 · $15M recoverable</li><li><strong>Biotech and diagnostics commercialization</strong> · recovery 65 · breakage 75 · $11M recoverable</li><li><strong>FinTech and treasury controls</strong> · recovery 70.8 · breakage 82 · $17M recoverable</li><li><strong>Nonprofit and foundation ops</strong> · recovery 57.8 · breakage 65 · $7M recoverable</li></ul>
+    </section>
+      <div class="footer">
+        <span>Revenue Control Breakage Map</span>
+        <a href="https://breakage.kineticgain.com">breakage.kineticgain.com</a>
+        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
+        <a href="https://kineticgain.com/">Kinetic Gain</a>
+      </div>
+    </div>
+  </body>
+</html>

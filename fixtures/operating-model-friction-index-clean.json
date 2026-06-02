@@ -1,0 +1,268 @@
+[
+  {
+    "id": "ai-governance-friction",
+    "lane": "AI governance and agent controls",
+    "dimension": "DECISION_LATENCY",
+    "action": "SIMPLIFY",
+    "operatingCluster": "AI governance",
+    "frictionTier": "PRESSURED",
+    "boardQuestion": "Where does executive AI demand outrun the team’s ability to convert policy decisions into shipped operator controls?",
+    "owner": "Chief AI Officer",
+    "audience": "Board technology committee",
+    "frictionNarrative": "AI governance is high-value, but decision latency is the main tax on scaling it cleanly.",
+    "operatingReality": "Board-facing policy work is solid, though too many decisions still queue behind a small set of approvers.",
+    "riskHeadline": "Executive demand is outpacing approval capacity and creating avoidable delay.",
+    "frictionSignal": "Review cycles bunch up around the same policy, trust, and legal checkpoints.",
+    "blockingIssue": "Approvals still depend on too few shared reviewers and too many memo handoffs.",
+    "evidenceArtifacts": [
+      "agent readiness scorecard",
+      "board memo",
+      "governance packet"
+    ],
+    "opportunityMoves": [
+      "collapse duplicate reviews",
+      "publish a lighter decision memo shape",
+      "pre-clear recurring control patterns"
+    ],
+    "relatedSurfaces": [
+      "scorecard.kineticgain.com",
+      "memo.kineticgain.com",
+      "suite.kineticgain.com"
+    ],
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ],
+    "frictionScore": 71,
+    "handoffLoadScore": 68,
+    "toolingSprawlScore": 39,
+    "decisionLatencyScore": 76,
+    "ownershipClarityScore": 81,
+    "recoverableMarginMillions": 17,
+    "headline": "AI governance is strong commercially, but still slowed by decision drag.",
+    "nextMove": "Reduce approval depth for recurring policy patterns and assign one final owner per packet."
+  },
+  {
+    "id": "procurement-friction",
+    "lane": "Procurement and trust operations",
+    "dimension": "EVIDENCE_OVERHEAD",
+    "action": "STANDARDIZE",
+    "operatingCluster": "Procurement / trust",
+    "frictionTier": "PRESSURED",
+    "boardQuestion": "Where does the same deal-readiness evidence still get rebuilt too often across customers and reviews?",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "frictionNarrative": "Procurement is scalable, but evidence overhead is the main source of wasted effort.",
+    "operatingReality": "The lane is structurally strong, though repeated questionnaire and proof packaging work still burns expensive cycles.",
+    "riskHeadline": "The team is spending too much time repackaging evidence that should already be standardized.",
+    "frictionSignal": "Answer packs, proof attachments, and buyer narratives still fork by deal instead of sharing one operating source.",
+    "blockingIssue": "Evidence packaging standards are not yet consistent enough across trust, procurement, and diligence rooms.",
+    "evidenceArtifacts": [
+      "procurement-ready-os",
+      "security questionnaire studio",
+      "trust center evidence room"
+    ],
+    "opportunityMoves": [
+      "standardize proof bundles",
+      "reduce custom answer drift",
+      "tie trust evidence to one canonical source"
+    ],
+    "relatedSurfaces": [
+      "procurement.kineticgain.com",
+      "questionnaire.kineticgain.com",
+      "trust.kineticgain.com"
+    ],
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ],
+    "frictionScore": 66,
+    "handoffLoadScore": 61,
+    "toolingSprawlScore": 42,
+    "decisionLatencyScore": 58,
+    "ownershipClarityScore": 84,
+    "recoverableMarginMillions": 14,
+    "headline": "Procurement is reusable, but still too packaging-heavy.",
+    "nextMove": "Define one canonical answer-and-proof bundle so commercial teams stop rebuilding the same trust material."
+  },
+  {
+    "id": "biotech-friction",
+    "lane": "Biotech and diagnostics operations",
+    "dimension": "HANDOFF_COMPLEXITY",
+    "action": "AUTOMATE",
+    "operatingCluster": "Biotech / diagnostics",
+    "frictionTier": "CONSTRAINED",
+    "boardQuestion": "Which regulated lane looks strong on paper, but still loses momentum across QA, validation, and release handoffs?",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "frictionNarrative": "Biotech is credible, though its scaling drag lives in multi-owner handoff complexity.",
+    "operatingReality": "The operator surfaces are solid, but the delivery chain still depends on too many cross-checks to move quickly.",
+    "riskHeadline": "Regulated credibility is high, but execution still stalls between evidence creation and release-ready decisions.",
+    "frictionSignal": "Validation and quality evidence live in too many adjacent flows with too much manual reconciliation.",
+    "blockingIssue": "QA, CAPA, specimen, and GxP lanes still hand work across separate checkpoints instead of one narrower closure flow.",
+    "evidenceArtifacts": [
+      "assay release readiness",
+      "batch deviation CAPA ledger",
+      "gxp change control board"
+    ],
+    "opportunityMoves": [
+      "automate handoff summaries",
+      "standardize closure packets",
+      "reduce quality review bounce-backs"
+    ],
+    "relatedSurfaces": [
+      "assay.kineticgain.com",
+      "capa.kineticgain.com",
+      "gxp.kineticgain.com",
+      "safety.kineticgain.com"
+    ],
+    "companyTags": [
+      "Veeva",
+      "Thermo Fisher",
+      "LabVantage"
+    ],
+    "frictionScore": 74,
+    "handoffLoadScore": 79,
+    "toolingSprawlScore": 47,
+    "decisionLatencyScore": 69,
+    "ownershipClarityScore": 63,
+    "recoverableMarginMillions": 12,
+    "headline": "Biotech is strong, but still too handoff-heavy.",
+    "nextMove": "Create a thinner QA-to-release closure path with one owner and one summarized evidence packet."
+  },
+  {
+    "id": "fintech-friction",
+    "lane": "FinTech and treasury controls",
+    "dimension": "CHANGE_FRICTION",
+    "action": "CONTAIN",
+    "operatingCluster": "FinTech",
+    "frictionTier": "CONSTRAINED",
+    "boardQuestion": "Which commercial lane still slows down whenever a payment, treasury, or merchant control changes?",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "frictionNarrative": "FinTech has strong pull, though change friction keeps weakening execution reliability.",
+    "operatingReality": "Payments, treasury, and merchant controls are promising, but still require too much cross-lane retesting and narrative repair.",
+    "riskHeadline": "Commercial opportunity exists, but change overhead is still too high for confident scaling.",
+    "frictionSignal": "One control update still creates too many downstream review and coordination tasks.",
+    "blockingIssue": "Merchant, KYC, and treasury changes are not yet isolated enough to prevent repeated regression checks.",
+    "evidenceArtifacts": [
+      "payment reconciliation exception desk",
+      "treasury liquidity signal lab",
+      "merchant risk review console"
+    ],
+    "opportunityMoves": [
+      "contain control blast radius",
+      "tighten release bundles",
+      "reduce retest cycles"
+    ],
+    "relatedSurfaces": [
+      "payments.kineticgain.com",
+      "treasury.kineticgain.com",
+      "merchant.kineticgain.com",
+      "kyc.kineticgain.com"
+    ],
+    "companyTags": [
+      "Stripe",
+      "Plaid",
+      "Power BI"
+    ],
+    "frictionScore": 78,
+    "handoffLoadScore": 65,
+    "toolingSprawlScore": 52,
+    "decisionLatencyScore": 63,
+    "ownershipClarityScore": 58,
+    "recoverableMarginMillions": 16,
+    "headline": "FinTech has market energy, but too much change friction.",
+    "nextMove": "Isolate change surfaces and shrink the retest burden each control update creates."
+  },
+  {
+    "id": "nonprofit-friction",
+    "lane": "Nonprofit and foundation ops",
+    "dimension": "OWNERSHIP_AMBIGUITY",
+    "action": "ESCALATE",
+    "operatingCluster": "Nonprofit / foundation ops",
+    "frictionTier": "PRESSURED",
+    "boardQuestion": "Which reusable lane still loses throughput because ownership is diffuse instead of wrong?",
+    "owner": "Principal operator",
+    "audience": "Board strategy committee",
+    "frictionNarrative": "Nonprofit is portable, though its main drag is ownership ambiguity across related workstreams.",
+    "operatingReality": "The lane is solid, but leaders still rely on implied owners instead of explicit final decision carriers.",
+    "riskHeadline": "Work is getting done, but too many decisions still depend on informal ownership rather than visible accountability.",
+    "frictionSignal": "Program proof, donor stewardship, and grant evidence still move through overlapping owners without one hard closer.",
+    "blockingIssue": "Too many adjacent workstreams share responsibility without a single final owner per packet.",
+    "evidenceArtifacts": [
+      "grant compliance evidence desk",
+      "program outcome proof ledger",
+      "donor stewardship ops console"
+    ],
+    "opportunityMoves": [
+      "name one closer per packet",
+      "reduce overlapping reviewers",
+      "separate stewardship from reporting ownership"
+    ],
+    "relatedSurfaces": [
+      "grants.kineticgain.com",
+      "outcomes.kineticgain.com",
+      "stewardship.kineticgain.com"
+    ],
+    "companyTags": [
+      "Salesforce",
+      "Blackbaud",
+      "Google"
+    ],
+    "frictionScore": 64,
+    "handoffLoadScore": 59,
+    "toolingSprawlScore": 28,
+    "decisionLatencyScore": 57,
+    "ownershipClarityScore": 48,
+    "recoverableMarginMillions": 8,
+    "headline": "Nonprofit is portable, but too owner-blurry.",
+    "nextMove": "Assign one named closer for each grant, outcome, and stewardship packet."
+  },
+  {
+    "id": "robotics-friction",
+    "lane": "Robotics and override operations",
+    "dimension": "TOOLING_FRAGMENTATION",
+    "action": "AUTOMATE",
+    "operatingCluster": "Robotics",
+    "frictionTier": "BROKEN",
+    "boardQuestion": "Which lane is still losing too much operator time because the tooling stack is too fragmented to trust at scale?",
+    "owner": "Principal operator",
+    "audience": "Board innovation committee",
+    "frictionNarrative": "Robotics is strategically interesting, though tool fragmentation is still overwhelming the small proof set.",
+    "operatingReality": "The surfaces are compelling, but too many operator actions still cross separate tools and narratives.",
+    "riskHeadline": "The lane is interesting, but the toolchain is still too fragmented to justify heavier operating investment.",
+    "frictionSignal": "One incident or override still forces operators to jump between too many views, logs, and narratives.",
+    "blockingIssue": "Fleet, sensor, and override flows are not yet consolidated enough to keep response work continuous.",
+    "evidenceArtifacts": [
+      "robot fleet exception board",
+      "sensor health drift monitor",
+      "human override readiness console"
+    ],
+    "opportunityMoves": [
+      "merge operator flows",
+      "reduce tool-switching",
+      "stabilize incident-to-override handoff"
+    ],
+    "relatedSurfaces": [
+      "robots.kineticgain.com",
+      "sensor.kineticgain.com",
+      "override.kineticgain.com"
+    ],
+    "companyTags": [
+      "NVIDIA",
+      "Boston Dynamics",
+      "AWS"
+    ],
+    "frictionScore": 83,
+    "handoffLoadScore": 73,
+    "toolingSprawlScore": 86,
+    "decisionLatencyScore": 67,
+    "ownershipClarityScore": 54,
+    "recoverableMarginMillions": 6,
+    "headline": "Robotics is range-rich, but the stack is too fragmented.",
+    "nextMove": "Collapse the operator views so one incident does not require three separate toolchains."
+  }
+]
