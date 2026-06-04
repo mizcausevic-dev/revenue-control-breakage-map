@@ -2,7 +2,7 @@
 
 Board-ready executive-intelligence surface for exposing revenue-control failures, reporting breakage, attribution drift, and operator-visible leakage across the broader Kinetic Gain suite.
 
-- Live: `http://breakage.kineticgain.com/`
+- Live: `https://breakage.kineticgain.com/`
 - Repo: `mizcausevic-dev/revenue-control-breakage-map`
 
 ## Why this matters
